@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package persons;
+
+enum Sex {
+    M = 0; // male 
+    F = 1; // female
+    O = 2; // other
+}
+
+message PersonInfo {
+    int32 age = 1; // age in years
+    Sex sex = 2; 
+    int32 height = 3; // height in cm
+}

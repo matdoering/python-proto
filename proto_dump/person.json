@@ -1,0 +1,16 @@
+"person": {
+    "info": {
+      "age": 30,
+      "height": 184
+    },
+    "friends": {
+      "friendship_duration": 365.1000061035156,
+      "shared_hobbies": ["books", "daydreaming", "unicorns"],
+      "person": {
+        "info": {
+          "age": 40,
+          "height": 165
+        }
+      }
+    }
+}
