@@ -1,5 +1,5 @@
-import generated.person_pb2
-import generated.person_info_pb2
+import generated.person_pb2 as person_pb2
+import generated.person_info_pb2 as person_info_pb2
 import os
 
 if __name__ == "__main__":
@@ -9,7 +9,7 @@ if __name__ == "__main__":
     #############
     friend_info = person_info_pb2.PersonInfo()
     friend_info.age = 40
-    friend_info.sex = person_info_pb2.Sex.M
+    friend_info.sex = person_info_pb2.M
     friend_info.height = 165
     friend_person = person_pb2.Person()
     friend_person.info.CopyFrom(friend_info)
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     #########
     person_info = person_info_pb2.PersonInfo()
     person_info.age = 30
-    person_info.sex = person_info_pb2.Sex.M
+    person_info.sex = person_info_pb2.M
     person_info.height = 184
     person = person_pb2.Person()
     person.info.CopyFrom(person_info)
