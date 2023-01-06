@@ -35,6 +35,7 @@ class CustomDevelopCommand(develop):
         generate_proto_code()
 
 setup(
+    install_requires=["protobuf"],
     name='testpkg',
     version='1.0.0',
     package_dir={'': 'src'},
