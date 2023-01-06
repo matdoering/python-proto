@@ -1,5 +1,5 @@
-import generated.person_pb2
-import generated.person_info_pb2
+import generated.person_pb2 as person_pb2
+import generated.person_info_pb2 as person_info_pb2
 import os
 
 if __name__ == "__main__":
